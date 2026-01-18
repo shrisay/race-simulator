@@ -24,14 +24,14 @@ The result is a dynamic and largely unpredictable race — similar to how real F
 ### Car & Driver Performance Modeling
 - Cars modeled with **speed**, **cornering**, **reliability**
 - Drivers modeled with **pace**, **awareness**, **racecraft**, **consistency**
-- Grid penalties automatically applied and compensated with pace buffs
+- Grid penalties automatically applied and compensated with pace buffs, as a high-risk high-reward system
 
 ### Probabilistic Simulation Engine
 - Lap variation generated via:
   - consistency-based randomness  
   - small random oscillations for “race flow”  
-  - occasional mistakes with ~1.5–4s penalty  
-  - stochastic reliability failures  
+  - occasional driver errors with ~1.5–4s penalty  
+  - probabilistic reliability failures  
 
 ### Track Effects
 Each track defines:
@@ -51,11 +51,11 @@ After each lap:
   - the trailing driver has a very large pace advantage  
 - If any overtake occurs, the loop repeats until stable
 
-This produces “realistic” multi-pass battles.
+This produces realistic multi-pass battles.
 
 ### Qualifying Session
-- Faster inconsistency, quicker raw lap profile  
-- Very small chance of reliability events  
+- Increased inconsistency, quicker raw laps   
+- Greatly reduced chance of reliability events  
 - Automatically sorts and displays results  
 - Applies grid penalties correctly  
 
