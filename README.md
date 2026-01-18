@@ -116,7 +116,7 @@ Leclerc made a mistake!
 To customize the race:
 
 ```python
-race = Race(drivers, 50, monza)
+race = Race(drivers, 50, monza)  # List of drivers, laps, racetrack
 race.qualify()
 race.simulate()
 ```
