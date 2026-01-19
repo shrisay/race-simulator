@@ -1,6 +1,6 @@
 # Race Simulator
 A Python-based Formula 1 race engine that simulates full Grand Prix weekends — including qualifying, multi-lap racing, overtakes, driver mistakes, reliability issues, pace variance, and car–track interaction.  
-The project models race dynamics using probabilistic behavior, object-oriented design, and tuning parameters inspired by real F1 data.
+The project models race dynamics using probabilistic behavior, object-oriented design, and tuning parameters inspired by real F1.
 
 ---
 
@@ -16,8 +16,6 @@ It uses **object-oriented modeling** (Cars, Drivers, Tracks, Race) and **probabi
 - Automatic qualifying session + race start grid with grid penalties  
 
 The result is a dynamic and largely unpredictable race — similar to how real F1 events unfold.
-
----
 
 ## Key Features
 
@@ -59,8 +57,6 @@ This produces realistic multi-pass battles.
 - Automatically sorts and displays results  
 - Applies grid penalties correctly  
 
----
-
 ## Architecture
 
 The system uses a clean, extensible OOP structure:
@@ -74,8 +70,6 @@ Race       → orchestrates qualifying + multi-lap race
 
 Each class has a clearly defined responsibility.
 
----
-
 ## Installation
 
 Requires Python 3.8+.
@@ -87,8 +81,6 @@ python3 simulator.py
 ```
 
 No external dependencies required.
-
----
 
 ## Usage
 
@@ -121,8 +113,6 @@ race.qualify()
 race.simulate()
 ```
 
----
-
 ## File Structure
 
 Since this is a single-file project, everything is located in:
@@ -131,8 +121,6 @@ Since this is a single-file project, everything is located in:
 simulator.py
 README.md
 ```
-
----
 
 ## Future Improvements
 - Tyre model (soft/medium/hard with degradation curves)  
