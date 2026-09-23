@@ -2,7 +2,6 @@
 A Python-based Formula 1 race engine that simulates full Grand Prix weekends — including qualifying, multi-lap racing, overtakes, driver mistakes, reliability issues, pace variance, and car–track interaction.  
 The project models race dynamics using probabilistic behavior, object-oriented design, and tuning parameters inspired by real F1.
 
----
 
 ## Overview
 **Race Simulator** is a single-file Python simulation of an F1 race.  
@@ -129,7 +128,6 @@ README.md
 - Constructor standings across multiple races  
 - JSON/YAML input for custom driver/car/track definitions  
 
----
 
 ## Example
 The repository includes an example output file to demonstrate what a full qualifying session and race simulation look like.
